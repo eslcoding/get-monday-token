@@ -1,0 +1,179 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 95vw;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 100px;
+}
+
+.portal-container {
+  /* margin: 0 auto; */
+  /* flex-grow: 1; */
+  min-width: 93vw;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  min-height: 20vh;
+}
+
+.portal-container table {
+  width: 100%;
+  flex-grow: 1;
+}
+
+tr {
+  /* width: 100vw; */
+}
+
+td {
+  /* max-width: 15vw; */
+  /* width: 10vw; */
+}
+
+th {
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+td.user-id, th.user-id {
+  width: 5vw;
+}
+
+td.hash, th.hash {
+  width: 5vw;
+}
+
+td.long-td, th.long-td {
+  max-width: 25vw;
+  /* white-space: nowrap; */
+  /* overflow: auto; */
+}
+.long-td-fixed {
+  width: 25vw;
+}
+.delete-user {
+  cursor: pointer;
+}
+
+.sticky-table {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+
+.sticky-tr th {
+  padding: 4.8px;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-top: rgba(0, 0, 0, 0);
+}
+
+.delete-user section {
+  text-align: center;
+  margin: 8px;
+  min-width: 22px;
+  
+  box-shadow: 0 0 1px rgb(211, 72, 72);
+  transition: all .1s;
+}
+.delete-user:hover section {
+  
+  background-color: rgba(255, 0, 0, 0.404);
+}
+
+.filter-container {
+  width: 50vw;
+}
+
+.pages-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90px;
+  flex-grow: 1;
+  bottom: 0;
+}
+
+.prev, .next {
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+td div {
+  width: 100%;
+  min-height: 20px;
+  padding: 0.8rem 5px;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.table-sm td, .table-sm td {
+  padding: 0;
+}
+
+.table td, .table td {
+  padding: 0;
+  vertical-align: inherit;
+}
+
+td {
+  padding: 0 !important;
+}
+
+td.lisence {
+  min-width: 100px;
+}
+
+.real-enterprise {
+  background-color: #00e00b15 !important;
+  
+}
+
+.paging-export {
+  margin: 10px auto;
+  width: 100px;
+  /* width: 50vw; */
+  display: flex;
+  /* display: inline; */
+  justify-content: space-between;
+}
+
+.page-class {
+  margin: 0px 10px;
+}
+
+.page-btn {
+  cursor: pointer;
+}
+
+
+.form-group {
+  margin-bottom: 0;
+}
